@@ -1,0 +1,22 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "al",
+            "request": "launch",
+            "name": "D365 BC Sandbox",
+            "server": "http://D365BC",
+            "serverInstance": "nav",
+            "authentication": "UserPassword",
+            "startupObjectId": 22,
+            "startupObjectType": "Page"
+        } //,
+        // {
+        //     "type": "al",
+        //     "request": "launch",
+        //     "name": "Microsoft Cloud Sandbox",            
+        //     "startupObjectId": 22,
+        //     "startupObjectType": "Page"
+        // }
+    ]
+}

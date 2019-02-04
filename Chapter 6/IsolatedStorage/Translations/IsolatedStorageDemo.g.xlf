@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" target-language="en-US" original="IsolatedStorageDemo">
+    <body>
+      <group id="body">
+        <trans-unit id="Table 3357837221 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>License</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table License - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3357837221 - Field 3004954119 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table License - Field Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 27378948 - Method 265283524 - NamedType 2682833826" size-unit="char" translate="no" xml:space="preserve">
+          <source>dd03d28e-4acb-48d9-9520-c854495362b6</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit LicenseManagement - Method GetStorageKey - NamedType StorageKeyTxt</note>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
