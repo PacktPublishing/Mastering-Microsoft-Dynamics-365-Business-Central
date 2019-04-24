@@ -1,0 +1,33 @@
+{
+  "id": "da03d29e-4dfe-48d9-9520-c875596462b6",
+  "name": "PacktDemoDependencyExtension",
+  "publisher": "SD",
+  "brief": "Customer Category, Gift Campaigns and Vendor Quality Management DEPENDENT APP",
+  "description": "Customer Category, Gift Campaigns and Vendor Quality Management DEPENDENT APP",
+  "version": "1.0.0.0",
+  "privacyStatement": "",
+  "EULA": "",
+  "help": "",
+  "url": "http://www.demiliani.com",
+  "logo": "./Logo/ExtLogo.png",
+  "capabilities": [],
+  "dependencies": [
+    {
+      "appId": "dd03d28e-4dfe-48d9-9520-c875595362b6",
+      "name": "PacktDemoExtension",
+      "publisher": "SD",
+      "version": "1.0.0.0"
+    }
+  ],
+  "screenshots": [],
+  "platform": "13.0.0.0",
+  "application": "13.0.0.0",
+  "features": [
+    "TranslationFile"
+  ],
+  "idRange": {
+    "from": 50120,
+    "to": 50149
+  },
+  "runtime":"3.0"
+}

@@ -1,0 +1,404 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" target-language="en-US" original="PacktDemoExtension">
+    <body>
+      <group id="body">
+        <trans-unit id="Table 2965419784 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Customer Category</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Customer Category_PKT - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2965419784 - Field 949215307 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Customer Category_PKT - Field No - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2965419784 - Field 3461834954 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Description</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Customer Category_PKT - Field Description - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2965419784 - Field 1383905037 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Default</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Customer Category_PKT - Field Default - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2965419784 - Field 224392340 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Enable Newsletter</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Customer Category_PKT - Field EnableNewsletter - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2965419784 - Field 989712734 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Free Gifts Available</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Customer Category_PKT - Field FreeGiftsAvailable - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2965419784 - Field 3543129988 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Blocked</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Customer Category_PKT - Field Blocked - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2965419784 - Field 3907209010 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No. of associated customers</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Customer Category_PKT - Field TotalCustomersForCategory - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3411327006 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Gift Campaign</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table GiftCampaign_PKT - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3411327006 - Field 1342167883 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Customer Category Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table GiftCampaign_PKT - Field CustomerCategoryCode - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3411327006 - Field 1342167883 - Method 2126772001 - NamedType 232331533" size-unit="char" translate="yes" xml:space="preserve">
+          <source>This category is not enabled for Gift Campaigns.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table GiftCampaign_PKT - Field CustomerCategoryCode - Method OnValidate - NamedType ErrNoGifts</note>
+        </trans-unit>
+        <trans-unit id="Table 3411327006 - Field 1342167883 - Method 2126772001 - NamedType 2006978215" size-unit="char" translate="yes" xml:space="preserve">
+          <source>This category is Blocked.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table GiftCampaign_PKT - Field CustomerCategoryCode - Method OnValidate - NamedType ErrBlocked</note>
+        </trans-unit>
+        <trans-unit id="Table 3411327006 - Field 332802016 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Item No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table GiftCampaign_PKT - Field ItemNo - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3411327006 - Field 543275552 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Starting Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table GiftCampaign_PKT - Field StartingDate - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3411327006 - Field 3592094765 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Ending Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table GiftCampaign_PKT - Field EndingDate - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3411327006 - Field 4138006509 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Minimum Order Quantity</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table GiftCampaign_PKT - Field MinimumOrderQuantity - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3411327006 - Field 1740626337 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Free Gift Quantity</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table GiftCampaign_PKT - Field GiftQuantity - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3411327006 - Field 525852245 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Inactive</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table GiftCampaign_PKT - Field Inactive - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4063178493 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Packt Extension Setup</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Packt Extension Setup - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4063178493 - Field 1663593181 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Primary Key</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Packt Extension Setup - Field Primary Key - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4063178493 - Field 416348067 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Minimum Accepted Vendor Rate for Purchases</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Packt Extension Setup - Field Minimum Accepted Vendor Rate - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4063178493 - Field 1033346475 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Gift Tolerance Quantity for Sales</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Packt Extension Setup - Field Gift Tolerance Qty - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4063178493 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Packt Extension Setup</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Packt Extension Setup - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 400365763 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Vendor Quality</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Vendor Quality_PKT - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 400365763 - Field 1527594213 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Vendor No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Vendor Quality_PKT - Field Vendor No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 400365763 - Field 3119688693 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Vendor Name</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Vendor Quality_PKT - Field Vendor Name - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 400365763 - Field 377837881 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Vendor Activity Description</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Vendor Quality_PKT - Field Vendor Activity Description - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 400365763 - Field 2966361788 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Item Quality Score</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Vendor Quality_PKT - Field ScoreItemQuality - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 400365763 - Field 3310304992 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Delivery On Time Score</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Vendor Quality_PKT - Field ScoreDelivery - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 400365763 - Field 3612750857 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Packaging Score</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Vendor Quality_PKT - Field ScorePackaging - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 400365763 - Field 2680966708 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Pricing Score</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Vendor Quality_PKT - Field ScorePricing - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 400365763 - Field 2006937558 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Vendor Rate</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Vendor Quality_PKT - Field Rate - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 400365763 - Field 832395135 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Update Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Vendor Quality_PKT - Field UpdateDate - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 400365763 - Field 3532738656 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Invoiced for current year (N)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Vendor Quality_PKT - Field InvoicedYearN - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 400365763 - Field 511709391 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Invoiced for year N-1</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Vendor Quality_PKT - Field InvoicedYearN1 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 400365763 - Field 2424799242 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Invoiced for year N-2</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Vendor Quality_PKT - Field InvoicedYearN2 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 400365763 - Field 2988795004 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Due Amount</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Vendor Quality_PKT - Field DueAmount - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 400365763 - Field 3905246951 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Amount to pay (not due)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Vendor Quality_PKT - Field AmountNotDue - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3327522369 - Method 2314997803 - NamedType 3258297942" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Attention: there is an active promotion for item %1. if you buy %2 you can have a gift of %3</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GiftManagement_PKT - Method DoGiftCheck - NamedType GiftAlert</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3405942265 - Method 1377000455 - NamedType 3691555357" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Calculating Vendor statistics...</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit VendorQualityMgt_PKT - Method UpdateVendorQualityStatistics - NamedType DialogMessage</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3405942265 - Method 2267899969 - NamedType 3471820988" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Vendor %1 has a rate of %2 and it's under the required minimum value (%3)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit VendorQualityMgt_PKT - Method QualityCheckForReleasingPurchaseDoc - NamedType ErrNoMinimumRate</note>
+        </trans-unit>
+        <trans-unit id="Page 2602617178 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Customer Category List</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Category List_PKT - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2602617178 - Property 3863440606" size-unit="char" translate="yes" xml:space="preserve">
+          <source>ranking, categorization</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Category List_PKT - Property AdditionalSearchTerms</note>
+        </trans-unit>
+        <trans-unit id="Page 2602617178 - Control 3907209010 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Total Customers for Category</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Category List_PKT - Control TotalCustomersForCategory - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2602617178 - Action 2540711281 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Create default category</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Category List_PKT - Action Create Default Category - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2602617178 - Action 2540711281 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Create default category</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Category List_PKT - Action Create Default Category - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3881657932 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Customer Category Card</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CustomerCategoryCard_PKT - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3881657932 - Control 2445482498 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>General</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CustomerCategoryCard_PKT - Control General - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3881657932 - Control 1569466922 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Administration</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CustomerCategoryCard_PKT - Control Administration - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3881657932 - Control 84074407 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Statistics</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CustomerCategoryCard_PKT - Control Statistics - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3881657932 - Control 1223403522 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Total Sales Order Amount</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CustomerCategoryCard_PKT - Control TotalSalesAmount - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 765861844 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Gift Campaigns</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Gift Campaign List_PKT - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 765861844 - Property 3863440606" size-unit="char" translate="yes" xml:space="preserve">
+          <source>promotions, marketing</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Gift Campaign List_PKT - Property AdditionalSearchTerms</note>
+        </trans-unit>
+        <trans-unit id="Page 765861844 - View 3497628811 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Active Gift Campaigns</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Gift Campaign List_PKT - View ActiveCampaigns - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 765861844 - View 3467445442 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Inactive Gift Campaigns</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Gift Campaign List_PKT - View InactiveCampaigns - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 624309591 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Vendor Quality Card</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Vendor Quality Card_PKT - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 624309591 - Control 2445482498 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>General</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Vendor Quality Card_PKT - Control General - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 624309591 - Control 2906479055 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Score</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Vendor Quality Card_PKT - Control Scoring - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 624309591 - Control 3136822934 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Financials</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Vendor Quality Card_PKT - Control Financials - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 1813251194 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Item Ledger Entry Analysis</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Item Ledger Entry Analysis - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 1813251194 - Control 2346885236 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Options</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Item Ledger Entry Analysis - Control Options - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 1813251194 - Control 3363708249 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Include company logo</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Item Ledger Entry Analysis - Control includeLogo - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 1813251194 - ReportLabel 3077678206" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Page</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Item Ledger Entry Analysis - ReportLabel PageNo</note>
+        </trans-unit>
+        <trans-unit id="Report 1813251194 - ReportLabel 2030001076" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Item Ledger Entry Analysis</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Item Ledger Entry Analysis - ReportLabel BCReportName</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3025065243 - Control 3460622389 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Customer Category</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension CustomerCardExtension_PKT - Control Customer Category PKT - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3025065243 - Action 1612165934 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Assign Default Category</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension CustomerCardExtension_PKT - Action Assign default category - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3025065243 - Action 1612165934 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Assigns Default Category to the current Customer</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension CustomerCardExtension_PKT - Action Assign default category - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1830389737 - Action 2148286126 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Assign Default Category to all Customers</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension CustomerListExtension_PKT - Action Assign Default Category - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1830389737 - Action 2148286126 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Assigns the Default Category to all Customers</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension CustomerListExtension_PKT - Action Assign Default Category - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1830389737 - View 2072542781 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Customers without Category assigned</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension CustomerListExtension_PKT - View CustomersWithoutCategory - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3200751953 - Action 153267254 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Add Free Gifts</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension SalesOrderExt_PKT - Action AddFreeGifts - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3200751953 - Action 153267254 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Adds Free Gifts to the current Sales Order based on active Campaigns</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension SalesOrderExt_PKT - Action AddFreeGifts - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1342414459 - Action 1659253645 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Quality Classification</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension VendorCardExt_PKT - Action QualityClassification - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2385768260 - Field 2965419784 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Customer Category Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension CustomerTableExtensions_PKT - Field Customer Category_PKT - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2385768260 - Field 2965419784 - Method 2126772001 - NamedType 2006978215" size-unit="char" translate="yes" xml:space="preserve">
+          <source>This category is Blocked.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension CustomerTableExtensions_PKT - Field Customer Category_PKT - Method OnValidate - NamedType ErrBlocked</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 500617303 - Field 2965419784 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Customer Category</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension ItemLedgerEntryExtension_PKT - Field Customer Category_PKT - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 3919543379 - EnumValue 3371220206 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>None</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum NewsletterType - EnumValue None - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 3919543379 - EnumValue 2007862461 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Full</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum NewsletterType - EnumValue Full - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 3919543379 - EnumValue 2559989616 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Limited</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum NewsletterType - EnumValue Limited - Property Caption</note>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
