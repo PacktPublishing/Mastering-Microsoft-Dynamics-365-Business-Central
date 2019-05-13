@@ -129,7 +129,7 @@ codeunit 50101 "GiftManagement_PKT"
     begin
         if rec."Entry Type" = rec."Entry Type"::Sale then begin
             if Customer.Get(Rec."Source No.") then begin
-                rec."Customer Category_PKT" := Customer."Customer Category Code_PKT";
+                rec."Customer Category Code_PKT" := Customer."Customer Category Code_PKT";
                 rec.Modify();
             end;
         end;

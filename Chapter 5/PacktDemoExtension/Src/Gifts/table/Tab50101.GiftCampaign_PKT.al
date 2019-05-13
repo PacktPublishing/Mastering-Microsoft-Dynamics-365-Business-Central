@@ -17,7 +17,7 @@ table 50101 "GiftCampaign_PKT"
             var
                 CustomerCategory: Record "Customer Category_PKT";
                 ErrNoGifts: Label 'This category is not enabled for Gift Campaigns.';
-                ErrBlocked: Label 'This category is Blocked.';
+                ErrBlocked: Label 'This category is blocked.';
             begin
                 CustomerCategory.Get(CustomerCategoryCode);
                 if CustomerCategory.Blocked then

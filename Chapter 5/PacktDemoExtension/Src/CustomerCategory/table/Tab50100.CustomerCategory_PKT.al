@@ -23,14 +23,6 @@ table 50100 "Customer Category_PKT"
             Caption = 'Default';
         }
 
-        /* field(5; EnableNewsletter; Option)
-        {
-            OptionMembers = " ","Full","Limited";
-            OptionCaption = ' ,Full,Limited';
-            Caption = 'Enable Newsletter';
-            DataClassification = CustomerContent;
-        } */
-
         field(4; EnableNewsletter; Enum NewsletterType)
         {
             Caption = 'Enable Newsletter';
