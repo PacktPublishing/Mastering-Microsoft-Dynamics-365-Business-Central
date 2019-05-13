@@ -14,7 +14,7 @@ pageextension 50104 MyNewBCHeadline_PKT extends "Headline RC Business Manager" /
                     CustomerList: Page "Customer List";
                 begin
                     //Here we can handle a custom drilldown for details regarding the Headline
-                    Customer.SetRange("Customer Category_PKT", '');
+                    Customer.SetRange("Customer Category Code_PKT", '');
                     CustomerList.SetTableView(Customer);
                     CustomerList.Run();
                 end;

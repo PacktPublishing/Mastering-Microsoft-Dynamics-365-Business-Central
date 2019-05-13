@@ -44,7 +44,7 @@ codeunit 50105 CustomerCategoryInstall_PKT
         CustomerCategory: Record "Customer Category_PKT";
     begin
         CustomerCategory.Init();
-        CustomerCategory.No := ID;
+        CustomerCategory.Code := ID;
         CustomerCategory.Description := Description;
         CustomerCategory.Default := Default;
         CustomerCategory.Insert();

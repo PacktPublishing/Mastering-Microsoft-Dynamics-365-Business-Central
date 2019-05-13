@@ -4,7 +4,7 @@ codeunit 50100 "Customer Category Mgt_PKT"
     var
         CustomerCategory: Record "Customer Category_PKT";
     begin
-        CustomerCategory.No := 'DEFAULT';
+        CustomerCategory.Code := 'DEFAULT';
         CustomerCategory.Description := 'Default Customer Category';
         CustomerCategory.Default := true;
         if CustomerCategory.Insert then;
@@ -21,7 +21,7 @@ codeunit 50100 "Customer Category Mgt_PKT"
         Customer.Get(CustomerCode);
         CustomerCategory.SetRange(Default, true);
         if CustomerCategory.FindFirst() then begin
-            Customer."Customer Category_PKT" := CustomerCategory.No;
+            Customer."Customer Category Code_PKT" := CustomerCategory.Code;
             Customer.Modify();
         end;
     end;
@@ -34,10 +34,10 @@ codeunit 50100 "Customer Category Mgt_PKT"
         //Set default category for ALL Customer       
         CustomerCategory.SetRange(Default, true);
         if CustomerCategory.FindFirst() then begin
-            Customer.SetFilter("Customer Category_PKT", '<>%1', '');
+            Customer.SetFilter("Customer Category Code_PKT", '<>%1', '');
             if Customer.FindSet(true) then
                 repeat
-                    Customer."Customer Category_PKT" := CustomerCategory.No;
+                    Customer."Customer Category Code_PKT" := CustomerCategory.Code;
                     Customer.Modify();
                 until Customer.Next() = 0;
         end;
@@ -48,7 +48,7 @@ codeunit 50100 "Customer Category Mgt_PKT"
     var
         Customer: record Customer;
     begin
-        Customer.SetRange("Customer Category_PKT", '');
+        Customer.SetRange("Customer Category Code_PKT", '');
         exit(customer.Count());
     end;
 
@@ -58,8 +58,8 @@ codeunit 50100 "Customer Category Mgt_PKT"
         Customer: record Customer;
         TotalAmount: Decimal;
     begin
-        Customer.SetCurrentKey("Customer Category_PKT");
-        Customer.SetRange("Customer Category_PKT", CustomerCategoryCode);
+        Customer.SetCurrentKey("Customer Category Code_PKT");
+        Customer.SetRange("Customer Category Code_PKT", CustomerCategoryCode);
         if Customer.FindSet() then
             repeat
                 SalesLine.SetRange("Document Type", SalesLine."Document Type"::Order);

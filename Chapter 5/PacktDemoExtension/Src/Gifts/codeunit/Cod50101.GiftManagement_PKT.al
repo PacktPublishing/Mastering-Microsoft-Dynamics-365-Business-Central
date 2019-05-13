@@ -32,7 +32,7 @@ codeunit 50101 "GiftManagement_PKT"
             exit;
         SalesHeader.Get(SalesLine."Document Type", SalesLine."Document No.");
         Customer.Get(SalesLine."Sell-to Customer No.");
-        GiftCampaign.SetRange(CustomerCategoryCode, Customer."Customer Category_PKT");
+        GiftCampaign.SetRange(CustomerCategoryCode, Customer."Customer Category Code_PKT");
         GiftCampaign.SetRange(ItemNo, SalesLine."No.");
         GiftCampaign.SetFilter(StartingDate, '<=%1', SalesHeader."Order Date");
         GiftCampaign.SetFilter(EndingDate, '>=%1', SalesHeader."Order Date");
@@ -72,7 +72,7 @@ codeunit 50101 "GiftManagement_PKT"
     begin
         if (Rec.Type = Rec.Type::Item) and (Customer.Get(Rec."Sell-to Customer No.")) then begin
             SalesHeader.Get(Rec."Document Type", Rec."Document No.");
-            GiftCampaign.SetRange(CustomerCategoryCode, Customer."Customer Category_PKT");
+            GiftCampaign.SetRange(CustomerCategoryCode, Customer."Customer Category Code_PKT");
             GiftCampaign.SetRange(ItemNo, Rec."No.");
             GiftCampaign.SetFilter(StartingDate, '>=%1', SalesHeader."Order Date");
             GiftCampaign.SetFilter(EndingDate, '<=%1', SalesHeader."Order Date");
@@ -129,7 +129,7 @@ codeunit 50101 "GiftManagement_PKT"
     begin
         if rec."Entry Type" = rec."Entry Type"::Sale then begin
             if Customer.Get(Rec."Source No.") then begin
-                rec."Customer Category_PKT" := Customer."Customer Category_PKT";
+                rec."Customer Category_PKT" := Customer."Customer Category Code_PKT";
                 rec.Modify();
             end;
         end;

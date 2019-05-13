@@ -4,7 +4,7 @@ pageextension 50102 "CustomerCardExtension_PKT" extends "Customer Card"
     {
         addlast(General)
         {
-            field("Customer Category PKT"; "Customer Category_PKT")
+            field("Customer Category PKT"; "Customer Category Code_PKT")
             {
                 ToolTip = 'Customer Category';
                 ApplicationArea = All;

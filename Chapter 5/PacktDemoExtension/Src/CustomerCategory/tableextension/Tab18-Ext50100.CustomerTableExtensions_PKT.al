@@ -2,18 +2,18 @@ tableextension 50100 "CustomerTableExtensions_PKT" extends Customer //18
 {
     fields
     {
-        field(50100; "Customer Category_PKT"; Code[20])
+        field(50100; "Customer Category Code_PKT"; Code[20])
         {
-            TableRelation = "Customer Category_PKT".No;
+            TableRelation = "Customer Category_PKT".Code;
             Caption = 'Customer Category Code';
             DataClassification = CustomerContent;
 
             trigger OnValidate()
             var
                 CustomerCategory: Record "Customer Category_PKT";
-                ErrBlocked: Label 'This category is Blocked.';
+                ErrBlocked: Label 'This category is blocked.';
             begin
-                CustomerCategory.Get("Customer Category_PKT");
+                CustomerCategory.Get("Customer Category Code_PKT");
                 if CustomerCategory.Blocked then
                     Error(ErrBlocked);
             end;
@@ -23,7 +23,7 @@ tableextension 50100 "CustomerTableExtensions_PKT" extends Customer //18
 
     keys
     {
-        key(CustomerCategory; "Customer Category_PKT")
+        key(CustomerCategory; "Customer Category Code_PKT")
         {
         }
     }

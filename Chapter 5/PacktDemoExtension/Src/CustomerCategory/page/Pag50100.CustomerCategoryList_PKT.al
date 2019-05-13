@@ -14,7 +14,7 @@ page 50100 "Customer Category List_PKT"
         {
             repeater(Group)
             {
-                field(No; No)
+                field(Code; Code)
                 {
                     ApplicationArea = All;
                 }

@@ -13,7 +13,7 @@ page 50101 CustomerCategoryCard_PKT
             group(General)
             {
                 Caption = 'General';
-                field(No; No)
+                field(Code; Code)
                 {
                     ApplicationArea = All;
                 }

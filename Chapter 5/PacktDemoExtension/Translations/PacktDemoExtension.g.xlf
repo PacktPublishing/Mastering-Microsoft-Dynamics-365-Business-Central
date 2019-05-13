@@ -8,10 +8,10 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Customer Category_PKT - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Table 2965419784 - Field 949215307 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Table 2965419784 - Field 3004954119 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>No.</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table Customer Category_PKT - Field No - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Customer Category_PKT - Field Code - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 2965419784 - Field 3461834954 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Description</source>
@@ -368,15 +368,15 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension VendorCardExt_PKT - Action QualityClassification - Property Caption</note>
         </trans-unit>
-        <trans-unit id="TableExtension 2385768260 - Field 2965419784 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="TableExtension 2385768260 - Field 419910139 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Customer Category Code</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">TableExtension CustomerTableExtensions_PKT - Field Customer Category_PKT - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension CustomerTableExtensions_PKT - Field Customer Category Code_PKT - Property Caption</note>
         </trans-unit>
-        <trans-unit id="TableExtension 2385768260 - Field 2965419784 - Method 2126772001 - NamedType 2006978215" size-unit="char" translate="yes" xml:space="preserve">
-          <source>This category is Blocked.</source>
+        <trans-unit id="TableExtension 2385768260 - Field 419910139 - Method 2126772001 - NamedType 2006978215" size-unit="char" translate="yes" xml:space="preserve">
+          <source>This category is blocked.</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">TableExtension CustomerTableExtensions_PKT - Field Customer Category_PKT - Method OnValidate - NamedType ErrBlocked</note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension CustomerTableExtensions_PKT - Field Customer Category Code_PKT - Method OnValidate - NamedType ErrBlocked</note>
         </trans-unit>
         <trans-unit id="TableExtension 500617303 - Field 2965419784 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Customer Category</source>

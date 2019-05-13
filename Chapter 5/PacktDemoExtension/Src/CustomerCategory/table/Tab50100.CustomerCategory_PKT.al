@@ -7,7 +7,7 @@ table 50100 "Customer Category_PKT"
 
     fields
     {
-        field(1; No; Code[20])
+        field(1; Code; Code[20])
         {
             DataClassification = CustomerContent;
             Caption = 'No.';
@@ -52,7 +52,7 @@ table 50100 "Customer Category_PKT"
         field(10; TotalCustomersForCategory; Integer)
         {
             FieldClass = FlowField;
-            CalcFormula = count (Customer where ("Customer Category_PKT" = field (No)));
+            CalcFormula = count (Customer where ("Customer Category Code_PKT" = field (Code)));
             Caption = 'No. of associated customers';
         }
 
@@ -60,7 +60,7 @@ table 50100 "Customer Category_PKT"
 
     keys
     {
-        key(PK; No)
+        key(PK; Code)
         {
             Clustered = true;
         }
@@ -74,7 +74,7 @@ table 50100 "Customer Category_PKT"
     var
         CustomerCategoryMgt: Codeunit "Customer Category Mgt_PKT";
     begin
-        exit(CustomerCategoryMgt.GetSalesAmount(Rec.No));
+        exit(CustomerCategoryMgt.GetSalesAmount(Rec.Code));
     end;
 
 }
