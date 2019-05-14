@@ -74,8 +74,8 @@ codeunit 50101 "GiftManagement_PKT"
             SalesHeader.Get(Rec."Document Type", Rec."Document No.");
             GiftCampaign.SetRange(CustomerCategoryCode, Customer."Customer Category Code_PKT");
             GiftCampaign.SetRange(ItemNo, Rec."No.");
-            GiftCampaign.SetFilter(StartingDate, '>=%1', SalesHeader."Order Date");
-            GiftCampaign.SetFilter(EndingDate, '<=%1', SalesHeader."Order Date");
+            GiftCampaign.SetFilter(StartingDate, '<=%1', SalesHeader."Order Date");
+            GiftCampaign.SetFilter(EndingDate, '>=%1', SalesHeader."Order Date");
             GiftCampaign.SetRange(Inactive, false);
             GiftCampaign.SetFilter(MinimumOrderQuantity, '> %1', Rec.Quantity);
             if GiftCampaign.FindFirst() then begin
