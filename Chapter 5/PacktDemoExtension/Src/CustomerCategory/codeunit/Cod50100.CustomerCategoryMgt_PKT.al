@@ -34,12 +34,8 @@ codeunit 50100 "Customer Category Mgt_PKT"
         //Set default category for ALL Customer       
         CustomerCategory.SetRange(Default, true);
         if CustomerCategory.FindFirst() then begin
-            Customer.SetFilter("Customer Category Code_PKT", '<>%1', '');
-            if Customer.FindSet(true) then
-                repeat
-                    Customer."Customer Category Code_PKT" := CustomerCategory.Code;
-                    Customer.Modify();
-                until Customer.Next() = 0;
+            Customer.SetFilter("Customer Category Code_PKT", '%1', '');
+            Customer.ModifyAll("Customer Category Code_PKT", CustomerCategory.Code, true);
         end;
     end;
 
