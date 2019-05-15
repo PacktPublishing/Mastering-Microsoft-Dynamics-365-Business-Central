@@ -2,7 +2,7 @@ codeunit 50101 "GiftManagement_PKT"
 {
     procedure AddGifts(var SalesHeader: Record "Sales Header")
     var
-        SalesLine: record "Sales Line";
+        SalesLine: Record "Sales Line";
         Handled: Boolean;
     begin
         SalesLine.SetRange("Document Type", SalesHeader."Document Type");
@@ -41,7 +41,7 @@ codeunit 50101 "GiftManagement_PKT"
         if GiftCampaign.FindFirst() then begin
             //Active promo found. We need to insert a new Sales Line
             LineNo := GetLastSalesDocumentLineNo(SalesHeader);
-            SalesLineGift.init;
+            SalesLineGift.Init();
             SalesLineGift.TransferFields(SalesLine);
             SalesLineGift."Line No." := LineNo + 10000;
             SalesLineGift.Validate(Quantity, GiftCampaign.GiftQuantity);
@@ -70,28 +70,29 @@ codeunit 50101 "GiftManagement_PKT"
         SalesHeader: Record "Sales Header";
         Handled: Boolean;
     begin
-        if (Rec.Type = Rec.Type::Item) and (Customer.Get(Rec."Sell-to Customer No.")) then begin
-            SalesHeader.Get(Rec."Document Type", Rec."Document No.");
-            GiftCampaign.SetRange(CustomerCategoryCode, Customer."Customer Category Code_PKT");
-            GiftCampaign.SetRange(ItemNo, Rec."No.");
-            GiftCampaign.SetFilter(StartingDate, '<=%1', SalesHeader."Order Date");
-            GiftCampaign.SetFilter(EndingDate, '>=%1', SalesHeader."Order Date");
-            GiftCampaign.SetRange(Inactive, false);
-            GiftCampaign.SetFilter(MinimumOrderQuantity, '> %1', Rec.Quantity);
-            if GiftCampaign.FindFirst() then begin
-                //Integration event raised
-                OnBeforeFreeGiftAlert(Rec, Handled);
-                DoGiftCheck(Rec, GiftCampaign, Handled);
-                //Integration Event raised
-                OnAfterFreeGiftAlert(Rec);
+        if (Rec.Type = Rec.Type::Item) then begin
+            if (Customer.Get(Rec."Sell-to Customer No.")) then begin
+                SalesHeader.Get(Rec."Document Type", Rec."Document No.");
+                GiftCampaign.SetRange(CustomerCategoryCode, Customer."Customer Category Code_PKT");
+                GiftCampaign.SetRange(ItemNo, Rec."No.");
+                GiftCampaign.SetFilter(StartingDate, '<=%1', SalesHeader."Order Date");
+                GiftCampaign.SetFilter(EndingDate, '>=%1', SalesHeader."Order Date");
+                GiftCampaign.SetRange(Inactive, false);
+                GiftCampaign.SetFilter(MinimumOrderQuantity, '> %1', Rec.Quantity);
+                if GiftCampaign.FindFirst() then begin
+                    //Integration event raised
+                    OnBeforeFreeGiftAlert(Rec, Handled);
+                    DoGiftCheck(Rec, GiftCampaign, Handled);
+                    //Integration Event raised
+                    OnAfterFreeGiftAlert(Rec);
+                end;
             end;
-
         end;
     end;
 
     local procedure DoGiftCheck(var SalesLine: Record "Sales Line"; var GiftCampaign: Record GiftCampaign_PKT; var Handled: Boolean)
     var
-        PacktSetup: record "Packt Extension Setup";
+        PacktSetup: Record "Packt Extension Setup";
         GiftAlert: Label 'Attention: there is an active promotion for item %1. if you buy %2 you can have a gift of %3';
     begin
         if Handled then
@@ -127,10 +128,10 @@ codeunit 50101 "GiftManagement_PKT"
     var
         Customer: Record Customer;
     begin
-        if rec."Entry Type" = rec."Entry Type"::Sale then begin
+        if Rec."Entry Type" = Rec."Entry Type"::Sale then begin
             if Customer.Get(Rec."Source No.") then begin
-                rec."Customer Category Code_PKT" := Customer."Customer Category Code_PKT";
-                rec.Modify();
+                Rec."Customer Category Code_PKT" := Customer."Customer Category Code_PKT";
+                Rec.Modify();
             end;
         end;
     end;

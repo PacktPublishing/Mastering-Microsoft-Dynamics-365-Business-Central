@@ -59,7 +59,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Table GiftCampaign_PKT - Field CustomerCategoryCode - Method OnValidate - NamedType ErrNoGifts</note>
         </trans-unit>
         <trans-unit id="Table 3411327006 - Field 1342167883 - Method 2126772001 - NamedType 2006978215" size-unit="char" translate="yes" xml:space="preserve">
-          <source>This category is Blocked.</source>
+          <source>This category is blocked.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table GiftCampaign_PKT - Field CustomerCategoryCode - Method OnValidate - NamedType ErrBlocked</note>
         </trans-unit>
@@ -192,6 +192,16 @@
           <source>Amount to pay (not due)</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Vendor Quality_PKT - Field AmountNotDue - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 4240668318 - Method 1258366377 - NamedType 90186738" size-unit="char" translate="yes" xml:space="preserve">
+          <source>DEFAULT</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Customer Category Mgt_PKT - Method CreateDefaultCategory - NamedType DefaultCode</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 4240668318 - Method 1258366377 - NamedType 2485661351" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Default Customer Category</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Customer Category Mgt_PKT - Method CreateDefaultCategory - NamedType DefaultDescription</note>
         </trans-unit>
         <trans-unit id="Codeunit 3327522369 - Method 2314997803 - NamedType 3258297942" size-unit="char" translate="yes" xml:space="preserve">
           <source>Attention: there is an active promotion for item %1. if you buy %2 you can have a gift of %3</source>
@@ -378,10 +388,10 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension CustomerTableExtensions_PKT - Field Customer Category Code_PKT - Method OnValidate - NamedType ErrBlocked</note>
         </trans-unit>
-        <trans-unit id="TableExtension 500617303 - Field 2965419784 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="TableExtension 500617303 - Field 419910139 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Customer Category</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">TableExtension ItemLedgerEntryExtension_PKT - Field Customer Category_PKT - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension ItemLedgerEntryExtension_PKT - Field Customer Category Code_PKT - Property Caption</note>
         </trans-unit>
         <trans-unit id="Enum 3919543379 - EnumValue 3371220206 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>None</source>
