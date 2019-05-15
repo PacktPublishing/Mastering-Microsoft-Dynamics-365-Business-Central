@@ -1,0 +1,18 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "al",
+            "request": "launch",
+            "name": "D365BC",
+            "server": "http://localhost",
+            "serverInstance": "BC140",
+            "port": 7049,
+            "authentication": "Windows",
+            "schemaUpdateMode": "Synchronize",
+            "startupObjectType": "Page",
+            "startupObjectId": 130401,
+            "breakOnError": true
+        }
+    ]
+}

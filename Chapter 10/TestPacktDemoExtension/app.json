@@ -1,0 +1,32 @@
+{
+  "id": "7737ab78-c872-4bca-b9f8-2de788818c21",
+  "name": "TestPacktDemoExtension",
+  "publisher": "fluxxus.nl",
+  "brief": "Tests for Customer Category, Gift Campaigns and Vendor Quality Management",
+  "description": "Tests for Customer Category, Gift Campaigns and Vendor Quality Management",
+  "version": "1.0.0.0",
+  "privacyStatement": "",
+  "EULA": "",
+  "help": "https://www.packtpub.com/business/automated-testing-microsoft-dynamics-365-business-central",
+  "url": "http://www.fluxxus.nl",
+  "logo": "./Logo/ExtLogo.png",
+  "capabilities": [],
+  "dependencies": [
+    {
+      "appId": "dd03d28e-4dfe-48d9-9520-c875595362b6",
+      "name": "PacktDemoExtension",
+      "publisher": "SD",
+      "version": "1.0.0.0"
+    }
+  ],
+  "screenshots": [],
+  "platform": "14.0.0.0",
+  "application": "14.0.0.0",
+  "test": "14.0.0.0",
+  "idRange": {
+    "from": 60100,
+    "to": 60150
+  },
+  "runtime":"3.0",
+  "showMyCode": true
+}
