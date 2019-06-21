@@ -1,0 +1,25 @@
+{
+  "id": "2046d4bd-ba13-4836-a008-31c6df5cb2a8",
+  "name": "SaaSFileManagement",
+  "publisher": "SD",
+  "version": "1.0.0.0",
+  "brief": "",
+  "description": "File Management for SaaS environment",
+  "privacyStatement": "",
+  "EULA": "",
+  "help": "http://www.demiliani.com",
+  "url": "http://www.demiliani.com",
+  "logo": "",
+  "dependencies": [],
+  "screenshots": [],
+  "platform": "14.0.0.0",
+  "application": "14.0.0.0",
+  "idRanges": [
+    {
+      "from": 50100,
+      "to": 50149
+    }
+  ],
+  "showMyCode": true,
+  "runtime": "3.0"
+}

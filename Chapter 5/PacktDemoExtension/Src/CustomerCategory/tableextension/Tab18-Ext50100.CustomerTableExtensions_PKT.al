@@ -13,9 +13,10 @@ tableextension 50100 "CustomerTableExtensions_PKT" extends Customer //18
                 CustomerCategory: Record "Customer Category_PKT";
                 ErrBlocked: Label 'This category is blocked.';
             begin
-                CustomerCategory.Get("Customer Category Code_PKT");
-                if CustomerCategory.Blocked then
-                    Error(ErrBlocked);
+                if CustomerCategory.Get("Customer Category Code_PKT") then begin
+                    if CustomerCategory.Blocked then
+                        Error(ErrBlocked);
+                end;
             end;
         }
 

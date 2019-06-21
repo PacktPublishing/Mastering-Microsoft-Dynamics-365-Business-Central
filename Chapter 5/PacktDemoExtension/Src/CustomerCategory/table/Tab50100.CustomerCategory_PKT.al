@@ -4,6 +4,7 @@ table 50100 "Customer Category_PKT"
     DrillDownPageId = "Customer Category List_PKT";
     LookupPageId = "Customer Category List_PKT";
     Caption = 'Customer Category';
+    DataClassification = CustomerContent;
 
     fields
     {

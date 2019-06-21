@@ -20,6 +20,7 @@ codeunit 50101 "GiftManagement_PKT"
             until SalesLine.Next() = 0;
     end;
 
+
     local procedure AddFreeGiftSalesLine(var SalesLine: Record "Sales Line"; var Handled: Boolean)
     var
         GiftCampaign: Record GiftCampaign_PKT;
@@ -61,6 +62,9 @@ codeunit 50101 "GiftManagement_PKT"
         else
             exit(0);
     end;
+
+
+
 
     [EventSubscriber(ObjectType::Table, Database::"Sales Line", 'OnAfterValidateEvent', 'Quantity', false, false)]
     local procedure CheckGiftEligibility(var Rec: Record "Sales Line")

@@ -23,7 +23,7 @@ codeunit 50100 "Customer Category Mgt_PKT"
         Customer.Get(CustomerCode);
         CustomerCategory.SetRange(Default, true);
         if CustomerCategory.FindFirst() then begin
-            Customer."Customer Category Code_PKT" := CustomerCategory.Code;
+            Customer.Validate("Customer Category Code_PKT", CustomerCategory.Code);
             Customer.Modify();
         end;
     end;

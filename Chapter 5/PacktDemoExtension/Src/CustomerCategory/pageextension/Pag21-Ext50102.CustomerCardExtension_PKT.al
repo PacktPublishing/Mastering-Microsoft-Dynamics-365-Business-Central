@@ -16,6 +16,7 @@ pageextension 50102 "CustomerCardExtension_PKT" extends "Customer Card"
     {
         addlast("F&unctions")
         {
+
             action("Assign default category")
             {
                 Image = ChangeCustomer;
@@ -24,7 +25,7 @@ pageextension 50102 "CustomerCardExtension_PKT" extends "Customer Card"
                 PromotedIsBig = true;
                 ApplicationArea = All;
                 Caption = 'Assign Default Category';
-                ToolTip = 'Assigns Default Category to the current Customer';
+                ToolTip = 'Assigns a Default Category to the current Customer';
 
                 trigger OnAction();
                 var

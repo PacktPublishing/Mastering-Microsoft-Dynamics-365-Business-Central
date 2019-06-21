@@ -344,7 +344,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension CustomerCardExtension_PKT - Action Assign default category - Property Caption</note>
         </trans-unit>
         <trans-unit id="PageExtension 3025065243 - Action 1612165934 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Assigns Default Category to the current Customer</source>
+          <source>Assigns a Default Category to the current Customer</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension CustomerCardExtension_PKT - Action Assign default category - Property ToolTip</note>
         </trans-unit>
