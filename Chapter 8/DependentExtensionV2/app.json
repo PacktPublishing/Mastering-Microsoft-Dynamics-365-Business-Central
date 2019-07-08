@@ -1,0 +1,33 @@
+{
+  "id": "6d527590-711f-410c-b233-d267d192b13b",
+  "name": "SecondExtension",
+  "publisher": "DTacconi Inc.",
+  "brief": "",
+  "description": "",
+  "privacyStatement": "",
+  "EULA": "",
+  "help": "",
+  "url": "",
+  "logo": "",
+  "version": "2.0.0.0",
+  "dependencies": [
+    {
+      "appId": "15ecd2e5-b7a8-4612-ae6f-d722af29c0c0",
+      "name": "MainExtension",
+      "publisher": "DTacconi Inc.",
+      "version": "2.0.0.0"
+    }
+  ],
+  "screenshots": [],
+  "platform": "14.0.0.0",
+  "application": "14.0.0.0",
+  "idRanges": [
+    {
+      "from": 50100,
+      "to": 50149
+    }
+  ],
+  "contextSensitiveHelpUrl": "https://MainExtension.com/help/",
+  "showMyCode": true,
+  "runtime": "3.0"
+}
