@@ -1,0 +1,23 @@
+{
+  "id": "75cd9563-1c38-4737-9e05-a578794db915",
+  "name": "CARApi",
+  "publisher": "SD",
+  "brief": "",
+  "description": "CAR API",
+  "version": "1.0.0.0",
+  "privacyStatement": "",
+  "EULA": "",
+  "help": "",
+  "url": "",
+  "logo": "",
+  "capabilities": [],
+  "dependencies": [],
+  "screenshots": [],
+  "platform": "14.0.0.0",
+  "application": "14.0.0.0",
+  "idRange": {
+    "from": 50100,
+    "to": 50149
+  },
+  "runtime": "3.0"
+}

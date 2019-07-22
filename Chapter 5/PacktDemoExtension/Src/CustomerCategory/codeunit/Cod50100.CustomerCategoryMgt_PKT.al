@@ -70,4 +70,11 @@ codeunit 50100 "Customer Category Mgt_PKT"
 
         exit(TotalAmount);
     end;
+
+    [EventSubscriber(ObjectType::Codeunit, Codeunit::ReportManagement, 'OnAfterSubstituteReport', '', false, false)]
+    local procedure OnAfterSubstituteReport(ReportId: Integer; var NewReportId: Integer)
+    begin
+        if ReportId = Report::"Standard Sales - Order Conf." then
+            NewReportId := Report::"Packt Sales - Order Conf.";
+    end;
 }

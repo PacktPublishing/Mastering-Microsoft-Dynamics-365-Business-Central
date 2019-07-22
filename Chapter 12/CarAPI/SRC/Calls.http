@@ -1,0 +1,27 @@
+#List of companies
+GET https://d365bcita0918vm.westeurope.cloudapp.azure.com:7048/NAV/api/sd/custom/v1.0/companies
+Content-Type: application/x-www-form-urlencoded
+Authorization: Basic admin Z1JkubB/3epQOtfnBph04rcNgyFpaEuB9OVTnrd0VPs=
+
+#List of cars for the Cronus company
+GET https://d365bcita0918vm.westeurope.cloudapp.azure.com:7048/NAV/api/sd/custom/v1.0/companies(ecdc7cd0-ab75-4d40-8d0e-80d2471c4378)/cars
+Content-Type: application/x-www-form-urlencoded
+Authorization: Basic admin Z1JkubB/3epQOtfnBph04rcNgyFpaEuB9OVTnrd0VPs=
+
+#Insert a new Car
+POST https://d365bcita0918vm.westeurope.cloudapp.azure.com:7048/NAV/api/sd/custom/v1.0/companies(ecdc7cd0-ab75-4d40-8d0e-80d2471c4378)/cars
+Content-Type: application/json
+Authorization: Basic admin Z1JkubB/3epQOtfnBph04rcNgyFpaEuB9OVTnrd0VPs=
+
+{      
+      "modelno": "M003",
+      "description": "Fiat 500",
+      "brand": "FIAT",
+      "engineType": "Petrol",
+      "power": 75
+}
+
+#Detail of the Mercedes Car
+GET https://d365bcita0918vm.westeurope.cloudapp.azure.com:7048/NAV/api/sd/custom/v1.0/companies(ecdc7cd0-ab75-4d40-8d0e-80d2471c4378)/cars(0237f4af-3422-41b3-94aa-81196346460e)
+Content-Type: application/x-www-form-urlencoded
+Authorization: Basic admin Z1JkubB/3epQOtfnBph04rcNgyFpaEuB9OVTnrd0VPs=

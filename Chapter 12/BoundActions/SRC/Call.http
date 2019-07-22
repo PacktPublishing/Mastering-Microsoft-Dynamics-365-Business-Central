@@ -1,0 +1,17 @@
+
+#Clone customer function
+POST https://d365bcita0918vm.westeurope.cloudapp.azure.com:7048/NAV/ODataV4/Company('CRONUS%20IT')/MyCustomerCardWS('10000')/NAV.CloneCustomer
+Content-Type: application/x-www-form-urlencoded
+Authorization: Basic admin Z1JkubB/3epQOtfnBph04rcNgyFpaEuB9OVTnrd0VPs=
+
+
+
+#Get Sales Amount function
+POST https://d365bcita0918vm.westeurope.cloudapp.azure.com:7048/NAV/ODataV4/Company('CRONUS%20IT')/MyCustomerCardWS('10000')/NAV.GetSalesAmount
+Content-Type: application/json
+Authorization: Basic admin Z1JkubB/3epQOtfnBph04rcNgyFpaEuB9OVTnrd0VPs=
+
+{
+    "customerno": "10000"
+}
+

@@ -1,0 +1,20 @@
+C:\Users\stefano\OneDrive\MS Workshop NAV D365BC\Code\API\D365BCAPIClient\D365BCAPIClient\bin\Debug\D365BCAPIClient.exe.config
+C:\Users\stefano\OneDrive\MS Workshop NAV D365BC\Code\API\D365BCAPIClient\D365BCAPIClient\bin\Debug\D365BCAPIClient.exe
+C:\Users\stefano\OneDrive\MS Workshop NAV D365BC\Code\API\D365BCAPIClient\D365BCAPIClient\bin\Debug\D365BCAPIClient.pdb
+C:\Users\stefano\OneDrive\MS Workshop NAV D365BC\Code\API\D365BCAPIClient\D365BCAPIClient\obj\Debug\D365BCAPIClient.csprojAssemblyReference.cache
+C:\Users\stefano\OneDrive\MS Workshop NAV D365BC\Code\API\D365BCAPIClient\D365BCAPIClient\obj\Debug\D365BCAPIClient.csproj.CoreCompileInputs.cache
+C:\Users\stefano\OneDrive\MS Workshop NAV D365BC\Code\API\D365BCAPIClient\D365BCAPIClient\obj\Debug\D365BCAPIClient.exe
+C:\Users\stefano\OneDrive\MS Workshop NAV D365BC\Code\API\D365BCAPIClient\D365BCAPIClient\obj\Debug\D365BCAPIClient.pdb
+C:\Users\stefano\OneDrive\MS Workshop NAV D365BC\Code\API\D365BCAPIClient\D365BCAPIClient\bin\Debug\Newtonsoft.Json.dll
+C:\Users\stefano\OneDrive\MS Workshop NAV D365BC\Code\API\D365BCAPIClient\D365BCAPIClient\bin\Debug\Newtonsoft.Json.xml
+C:\Users\stefano\OneDrive\MS Workshop NAV D365BC\Code\API\D365BCAPIClient\D365BCAPIClient\obj\Debug\D365BCAPIClient.csproj.CopyComplete
+C:\Users\stefano\OneDrive\Packt\Mastering Dynamics 365 Business Central (B12999)\Chapter 12 - API\Code\D365BCAPIClient\D365BCAPIClient\bin\Debug\D365BCAPIClient.exe.config
+C:\Users\stefano\OneDrive\Packt\Mastering Dynamics 365 Business Central (B12999)\Chapter 12 - API\Code\D365BCAPIClient\D365BCAPIClient\bin\Debug\D365BCAPIClient.exe
+C:\Users\stefano\OneDrive\Packt\Mastering Dynamics 365 Business Central (B12999)\Chapter 12 - API\Code\D365BCAPIClient\D365BCAPIClient\bin\Debug\D365BCAPIClient.pdb
+C:\Users\stefano\OneDrive\Packt\Mastering Dynamics 365 Business Central (B12999)\Chapter 12 - API\Code\D365BCAPIClient\D365BCAPIClient\bin\Debug\Newtonsoft.Json.dll
+C:\Users\stefano\OneDrive\Packt\Mastering Dynamics 365 Business Central (B12999)\Chapter 12 - API\Code\D365BCAPIClient\D365BCAPIClient\bin\Debug\Newtonsoft.Json.xml
+C:\Users\stefano\OneDrive\Packt\Mastering Dynamics 365 Business Central (B12999)\Chapter 12 - API\Code\D365BCAPIClient\D365BCAPIClient\obj\Debug\D365BCAPIClient.csprojAssemblyReference.cache
+C:\Users\stefano\OneDrive\Packt\Mastering Dynamics 365 Business Central (B12999)\Chapter 12 - API\Code\D365BCAPIClient\D365BCAPIClient\obj\Debug\D365BCAPIClient.csproj.CoreCompileInputs.cache
+C:\Users\stefano\OneDrive\Packt\Mastering Dynamics 365 Business Central (B12999)\Chapter 12 - API\Code\D365BCAPIClient\D365BCAPIClient\obj\Debug\D365BCAPIClient.csproj.CopyComplete
+C:\Users\stefano\OneDrive\Packt\Mastering Dynamics 365 Business Central (B12999)\Chapter 12 - API\Code\D365BCAPIClient\D365BCAPIClient\obj\Debug\D365BCAPIClient.exe
+C:\Users\stefano\OneDrive\Packt\Mastering Dynamics 365 Business Central (B12999)\Chapter 12 - API\Code\D365BCAPIClient\D365BCAPIClient\obj\Debug\D365BCAPIClient.pdb

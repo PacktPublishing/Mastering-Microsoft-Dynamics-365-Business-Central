@@ -1,0 +1,14 @@
+#List of companies
+GET https://d365bcita0918vm.westeurope.cloudapp.azure.com:7048/NAV/api/sd/custom/v1.0/companies
+Content-Type: application/x-www-form-urlencoded
+Authorization: Basic admin Z1JkubB/3epQOtfnBph04rcNgyFpaEuB9OVTnrd0VPs=
+
+#List of Customers from my custom API
+GET https://d365bcita0918vm.westeurope.cloudapp.azure.com:7048/NAV/api/sd/customapi/v1.0/companies(ecdc7cd0-ab75-4d40-8d0e-80d2471c4378)/customers
+Content-Type: application/x-www-form-urlencoded
+Authorization: Basic admin Z1JkubB/3epQOtfnBph04rcNgyFpaEuB9OVTnrd0VPs=
+
+GET https://d365bcita0918vm.westeurope.cloudapp.azure.com:7048/NAV/api/sd/customapi/v1.0/companies(ecdc7cd0-ab75-4d40-8d0e-80d2471c4378)/customers(e1340dd8-2a84-429d-b73a-e02b4935436b)
+Content-Type: application/x-www-form-urlencoded
+Authorization: Basic admin Z1JkubB/3epQOtfnBph04rcNgyFpaEuB9OVTnrd0VPs=
+
