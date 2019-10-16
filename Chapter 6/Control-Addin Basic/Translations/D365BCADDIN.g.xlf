@@ -3,7 +3,7 @@
   <file datatype="xml" source-language="en-US" target-language="en-US" original="D365BCADDIN">
     <body>
       <group id="body">
-        <trans-unit id="PageExtension 3456710516 - Control 3899606083 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="PageExtension 3456710516 - Control 3899606083 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1434786627">
           <source>Control Add-in</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension ItemCardExt - Control AddinGroup - Property Caption</note>

@@ -3,7 +3,7 @@
   <file datatype="xml" source-language="en-US" target-language="en-US" original="PacktDemoDependencyExtension">
     <body>
       <group id="body">
-        <trans-unit id="TableExtension 4143460406 - Field 2165873553 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="TableExtension 4143460406 - Field 2165873553 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 400365763">
           <source>Classification No.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension VendorQualityExt_PKN - Field Certification No. - Property Caption</note>

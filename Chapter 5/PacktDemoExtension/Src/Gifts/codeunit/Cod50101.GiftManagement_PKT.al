@@ -106,22 +106,22 @@ codeunit 50101 "GiftManagement_PKT"
             Message(GiftAlert, SalesLine."No.", Format(GiftCampaign.MinimumOrderQuantity), Format(GiftCampaign.GiftQuantity));
     end;
 
-    [IntegrationEvent(true, true)]
+    [IntegrationEvent(true, false)]
     local procedure OnBeforeFreeGiftSalesLineAdded(var Rec: Record "Sales Line"; var Handled: Boolean)
     begin
     end;
 
-    [IntegrationEvent(true, true)]
+    [IntegrationEvent(true, false)]
     local procedure OnAfterFreeGiftSalesLineAdded(var Rec: Record "Sales Line")
     begin
     end;
 
-    [IntegrationEvent(true, true)]
+    [IntegrationEvent(true, false)]
     local procedure OnBeforeFreeGiftAlert(var Rec: Record "Sales Line"; var Handled: Boolean)
     begin
     end;
 
-    [IntegrationEvent(true, true)]
+    [IntegrationEvent(true, false)]
     local procedure OnAfterFreeGiftAlert(var Rec: Record "Sales Line")
     begin
     end;

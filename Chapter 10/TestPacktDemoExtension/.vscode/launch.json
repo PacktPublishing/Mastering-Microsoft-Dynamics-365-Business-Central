@@ -6,7 +6,7 @@
             "request": "launch",
             "name": "D365BC",
             "server": "http://localhost",
-            "serverInstance": "BC140",
+            "serverInstance": "BC150",
             "port": 7049,
             "authentication": "Windows",
             "schemaUpdateMode": "Synchronize",

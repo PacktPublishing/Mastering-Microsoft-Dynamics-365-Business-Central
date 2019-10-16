@@ -10,10 +10,22 @@
   "help": "http://www.demiliani.com",
   "url": "http://www.demiliani.com",
   "logo": "",
-  "dependencies": [],
+  "dependencies": [
+    {
+      "appId": "63ca2fa4-4f03-4f2b-a480-172fef340d3f",
+      "publisher": "Microsoft",
+      "name": "System Application",
+      "version": "1.0.0.0"
+    },
+    {
+      "appId": "437dbf0e-84ff-417a-965d-ed2bb9650972",
+      "publisher": "Microsoft",
+      "name": "Base Application",
+      "version": "15.0.0.0"
+    }
+  ],
   "screenshots": [],
-  "platform": "14.0.0.0",
-  "application": "14.0.0.0",
+  "platform": "15.0.0.0",
   "idRanges": [
     {
       "from": 50100,
@@ -21,5 +33,5 @@
     }
   ],
   "showMyCode": true,
-  "runtime": "3.0"
+  "runtime": "4.0"
 }

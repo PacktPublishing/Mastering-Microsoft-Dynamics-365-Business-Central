@@ -4,7 +4,7 @@ codeunit 50103 SaaSFileMgt
     var
         fileMgt: Codeunit "File Management";
         selectedFile: Text;
-        tempblob: Record TempBlob;
+        //tempblob: Codeunit "Temp Blob";
         httpClient: HttpClient;
         httpContent: HttpContent;
         jsonBody: text;
@@ -12,14 +12,18 @@ codeunit 50103 SaaSFileMgt
         httpHeader: HttpHeaders;
         fileName: Text;
         fileExt: Text;
+        //v15
+        base64Convert: Codeunit "Base64 Convert";
+        instr: InStream;
     begin
-        selectedFile := fileMgt.OpenFileDialog('Select file to upload', '', '');
-        tempblob.Blob.Import(selectedFile);
+        //selectedFile := fileMgt.OpenFileDialog('Select file to upload', '', '');        
+        //tempblob.Import(selectedFile);
 
+        //v15
+        UploadIntoStream('Select a file to upload', '', '', selectedFile, instr);
         fileName := delchr(fileMgt.GetFileName(selectedFile), '=', '.' + fileMgt.GetExtension(selectedFile));
         fileExt := fileMgt.GetExtension(selectedFile);
-
-        jsonBody := ' {"base64":"' + tempblob.ToBase64String() +
+        jsonBody := ' {"base64":"' + base64Convert.ToBase64(instr) +
         '","fileName":"' + fileName + '.' + fileExt +
         '","fileType":"' + GetMimeType(selectedFile) + '", "fileExt":"' + fileMgt.GetExtension(selectedFile) + '"}';
 
@@ -34,7 +38,7 @@ codeunit 50103 SaaSFileMgt
 
     procedure DownloadFile(fileName: Text; blobUrl: Text)
     var
-        tempblob: Record TempBlob;
+        tempblob: Codeunit "Temp Blob";
         httpClient: HttpClient;
         httpContent: HttpContent;
         jsonBody: text;
@@ -43,7 +47,9 @@ codeunit 50103 SaaSFileMgt
         base64: Text;
         fileType: Text;
         fileStream: InStream;
-
+        //v15
+        base64Convert: Codeunit "Base64 Convert";
+        outstr: OutStream;
     begin
         fileType := GetMimeType(fileName);
         jsonBody := ' {"url":"' + blobUrl + '","fileName":"' + fileName + '", "fileType":"' + fileType + '"}';
@@ -54,8 +60,13 @@ codeunit 50103 SaaSFileMgt
         httpClient.Post(BaseUrlDownloadFunction, httpContent, httpResponse);
         httpResponse.Content.ReadAs(base64);
         base64 := DelChr(base64, '=', '"');
-        tempblob.FromBase64String(base64);
-        tempblob.Blob.CreateInStream(fileStream);
+        //v15
+        //tempblob.FromBase64String(base64);
+        base64Convert.FromBase64(base64);
+        tempblob.CreateOutStream(outstr);
+        outstr.WriteText(base64);
+        //end v15
+        tempblob.CreateInStream(fileStream);
         DownloadFromStream(fileStream, 'Download file from Azure Storage', '', '', fileName);
     end;
 
@@ -82,7 +93,7 @@ codeunit 50103 SaaSFileMgt
     end;
 
     var
-        BaseUrlUploadFunction: Label 'https://saasfilemgt.azurewebsites.net/api/UploadFile?code=xxx';
-        BaseUrlDownloadFunction: Label 'https://saasfilemgt.azurewebsites.net/api/DownloadFile?code=xxx';
+        BaseUrlUploadFunction: Label 'https://saasfilemgt.azurewebsites.net/api/UploadFile?code=YOURFUNCTIONKEY';
+        BaseUrlDownloadFunction: Label 'https://saasfilemgt.azurewebsites.net/api/DownloadFile?code=YOURFUNCTIONKEY';
 }
 

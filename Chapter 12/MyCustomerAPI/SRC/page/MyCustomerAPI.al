@@ -9,7 +9,7 @@ page 50115 MyCustomerAPI
     EntitySetName = 'customers';
     SourceTable = Customer;
     DelayedInsert = true;
-    ODataKeyFields = Id;
+    ODataKeyFields = SystemId;
 
     //URL: https://api.businesscentral.dynamics.com/v2.0/TENANTID/sandbox/api/SD/customapi/v1.0/customers
 
@@ -27,7 +27,7 @@ page 50115 MyCustomerAPI
                 {
                     Caption = 'name';
                 }
-                field(Id; Id)
+                field(Id; SystemId)
                 {
                     Caption = 'Id';
                 }

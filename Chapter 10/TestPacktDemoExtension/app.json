@@ -10,23 +10,57 @@
   "help": "https://www.packtpub.com/business/automated-testing-microsoft-dynamics-365-business-central",
   "url": "http://www.fluxxus.nl",
   "logo": "./Logo/ExtLogo.png",
-  "capabilities": [],
   "dependencies": [
+    {
+      "appId": "63ca2fa4-4f03-4f2b-a480-172fef340d3f",
+      "publisher": "Microsoft",
+      "name": "System Application",
+      "version": "1.0.0.0"
+    },
+    {
+      "appId": "437dbf0e-84ff-417a-965d-ed2bb9650972",
+      "publisher": "Microsoft",
+      "name": "Base Application",
+      "version": "15.0.0.0"
+    },
     {
       "appId": "dd03d28e-4dfe-48d9-9520-c875595362b6",
       "name": "PacktDemoExtension",
       "publisher": "SD",
       "version": "1.0.0.0"
+    },
+    {
+      "appId": "dd0be2ea-f733-4d65-bb34-a28f4624fb14",
+      "publisher": "Microsoft",
+      "name": "Library Assert",
+      "version": "15.0.36560.0"
+    },
+    {
+      "appId": "e7320ebb-08b3-4406-b1ec-b4927d3e280b",
+      "publisher": "Microsoft",
+      "name": "Any",
+      "version": "15.0.36560.0"
+    },
+    {
+      "appId": "9856ae4f-d1a7-46ef-89bb-6ef056398228",
+      "publisher": "Microsoft",
+      "name": "System Application Test Library",
+      "version": "15.0.36560.0"
+    },
+    {
+      "appId": "5d86850b-0d76-4eca-bd7b-951ad998e997",
+      "publisher": "Microsoft",
+       "name": "Tests-TestLibraries",
+       "version": "15.0.36560.0"
     }
   ],
   "screenshots": [],
-  "platform": "14.0.0.0",
-  "application": "14.0.0.0",
-  "test": "14.0.0.0",
-  "idRange": {
+  "platform": "15.0.0.0",
+  "idRanges": [
+  {
     "from": 60100,
     "to": 60150
-  },
-  "runtime":"3.0",
+  }],
+  "runtime":"4.0",
   "showMyCode": true
 }

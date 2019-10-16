@@ -10,8 +10,19 @@
   "help": "",
   "url": "http://www.demiliani.com",
   "logo": "./Logo/ExtLogo.png",
-  "capabilities": [],
   "dependencies": [
+    {
+      "appId": "63ca2fa4-4f03-4f2b-a480-172fef340d3f",
+      "publisher": "Microsoft",
+      "name": "System Application",
+      "version": "1.0.0.0"
+    },
+    {
+      "appId": "437dbf0e-84ff-417a-965d-ed2bb9650972",
+      "publisher": "Microsoft",
+      "name": "Base Application",
+      "version": "15.0.0.0"
+    },
     {
       "appId": "dd03d28e-4dfe-48d9-9520-c875595362b6",
       "name": "PacktDemoExtension",
@@ -20,14 +31,16 @@
     }
   ],
   "screenshots": [],
-  "platform": "13.0.0.0",
-  "application": "13.0.0.0",
+  "platform": "15.0.0.0",
   "features": [
     "TranslationFile"
   ],
-  "idRange": {
-    "from": 50120,
-    "to": 50149
-  },
-  "runtime":"3.0"
+  "idRanges": [
+    {
+      "from": 50100,
+      "to": 50149
+    }
+  ],
+  "contextSensitiveHelpUrl": "https://PacktDemoDependencyExtension.com/help/",
+  "runtime":"4.0"
 }

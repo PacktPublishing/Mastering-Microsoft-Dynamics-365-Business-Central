@@ -4,7 +4,7 @@ codeunit 50100 LicenseManagement
     var
         StorageKey: Text;
         LicenseText: Text;
-        EncryptManagement: Codeunit "Encryption Management";
+        EncryptManagement: Codeunit "Cryptography Management";
         License: Record License temporary;
     begin
         StorageKey := GetStorageKey();
@@ -29,7 +29,7 @@ codeunit 50100 LicenseManagement
     var
         StorageKey: Text;
         LicenseText: Text;
-        EncryptManagement: Codeunit "Encryption Management";
+        EncryptManagement: Codeunit "Cryptography Management";
         License: Record License temporary;
     begin
         StorageKey := GetStorageKey();

@@ -37,7 +37,7 @@ codeunit 50101 EmailValidation_PKT
     local procedure EnableExternalCallsInSandbox()
     var
         NAVAppSetting: Record "NAV App Setting";
-        TenantManagement: Codeunit "Tenant Management";
+        TenantManagement: Codeunit "Environment Information";
         ModInfo: ModuleInfo;
     begin
         NavApp.GetCurrentModuleInfo(ModInfo);

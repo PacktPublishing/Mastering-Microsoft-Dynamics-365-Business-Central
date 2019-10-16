@@ -578,62 +578,62 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report Packt Sales - Order Conf. - NamedType GiftLbl</note>
         </trans-unit>
-        <trans-unit id="PageExtension 3025065243 - Control 3460622389 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="PageExtension 3025065243 - Control 3460622389 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 523354100">
           <source>Customer Category</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension CustomerCardExtension_PKT - Control Customer Category PKT - Property ToolTip</note>
         </trans-unit>
-        <trans-unit id="PageExtension 3025065243 - Action 1612165934 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="PageExtension 3025065243 - Action 1612165934 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 523354100">
           <source>Assign Default Category</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension CustomerCardExtension_PKT - Action Assign default category - Property Caption</note>
         </trans-unit>
-        <trans-unit id="PageExtension 3025065243 - Action 1612165934 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="PageExtension 3025065243 - Action 1612165934 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 523354100">
           <source>Assigns a Default Category to the current Customer</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension CustomerCardExtension_PKT - Action Assign default category - Property ToolTip</note>
         </trans-unit>
-        <trans-unit id="PageExtension 1830389737 - Action 2148286126 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="PageExtension 1830389737 - Action 2148286126 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2901867346">
           <source>Assign Default Category to all Customers</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension CustomerListExtension_PKT - Action Assign Default Category - Property Caption</note>
         </trans-unit>
-        <trans-unit id="PageExtension 1830389737 - Action 2148286126 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="PageExtension 1830389737 - Action 2148286126 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2901867346">
           <source>Assigns the Default Category to all Customers</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension CustomerListExtension_PKT - Action Assign Default Category - Property ToolTip</note>
         </trans-unit>
-        <trans-unit id="PageExtension 1830389737 - View 2072542781 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="PageExtension 1830389737 - View 2072542781 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2901867346">
           <source>Customers without Category assigned</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension CustomerListExtension_PKT - View CustomersWithoutCategory - Property Caption</note>
         </trans-unit>
-        <trans-unit id="PageExtension 3200751953 - Action 153267254 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="PageExtension 3200751953 - Action 153267254 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1673401186">
           <source>Add Free Gifts</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension SalesOrderExt_PKT - Action AddFreeGifts - Property Caption</note>
         </trans-unit>
-        <trans-unit id="PageExtension 3200751953 - Action 153267254 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="PageExtension 3200751953 - Action 153267254 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1673401186">
           <source>Adds Free Gifts to the current Sales Order based on active Campaigns</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension SalesOrderExt_PKT - Action AddFreeGifts - Property ToolTip</note>
         </trans-unit>
-        <trans-unit id="PageExtension 1342414459 - Action 1659253645 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="PageExtension 1342414459 - Action 1659253645 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4055858012">
           <source>Quality Classification</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension VendorCardExt_PKT - Action QualityClassification - Property Caption</note>
         </trans-unit>
-        <trans-unit id="TableExtension 2385768260 - Field 419910139 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="TableExtension 2385768260 - Field 419910139 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1994964448">
           <source>Customer Category Code</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension CustomerTableExtensions_PKT - Field Customer Category Code_PKT - Property Caption</note>
         </trans-unit>
-        <trans-unit id="TableExtension 2385768260 - Field 419910139 - Method 2126772001 - NamedType 2006978215" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="TableExtension 2385768260 - Field 419910139 - Method 2126772001 - NamedType 2006978215" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1994964448">
           <source>This category is blocked.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension CustomerTableExtensions_PKT - Field Customer Category Code_PKT - Method OnValidate - NamedType ErrBlocked</note>
         </trans-unit>
-        <trans-unit id="TableExtension 500617303 - Field 419910139 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="TableExtension 500617303 - Field 419910139 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 4089294192">
           <source>Customer Category</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension ItemLedgerEntryExtension_PKT - Field Customer Category Code_PKT - Property Caption</note>

@@ -10,12 +10,12 @@ codeunit 50102 VendorQualityMgt_PKT
         OnAfterCalculateVendorRate(VendorQuality);
     end;
 
-    [IntegrationEvent(true, true)]
+    [IntegrationEvent(true, false)]
     local procedure OnBeforeCalculateVendorRate(var VendorQuality: Record "Vendor Quality_PKT"; var Handled: Boolean)
     begin
     end;
 
-    [IntegrationEvent(true, true)]
+    [IntegrationEvent(true, false)]
     local procedure OnAfterCalculateVendorRate(var VendorQuality: Record "Vendor Quality_PKT")
     begin
     end;

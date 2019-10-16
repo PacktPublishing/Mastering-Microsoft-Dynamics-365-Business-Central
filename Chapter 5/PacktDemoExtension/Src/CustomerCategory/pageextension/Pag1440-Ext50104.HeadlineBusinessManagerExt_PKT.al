@@ -3,7 +3,7 @@ pageextension 50104 MyNewBCHeadline_PKT extends "Headline RC Business Manager" /
     layout
     {
         // Add changes to page layout here
-        addafter(Control4)
+        addafter(Control1)
         {
             field(newHeadlineText; newHeadlineText)
             {
@@ -30,7 +30,7 @@ pageextension 50104 MyNewBCHeadline_PKT extends "Headline RC Business Manager" /
 
     trigger OnOpenPage()
     var
-        HeadlineMgt: Codeunit "Headline Management";
+        HeadlineMgt: Codeunit "Headlines";
         CustomerCategoryMgt: Codeunit "Customer Category Mgt_PKT";
     begin
         //Set Headline text            
