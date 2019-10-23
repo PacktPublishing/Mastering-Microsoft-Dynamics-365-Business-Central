@@ -1,4 +1,4 @@
-pageextension 50100 CustomerCardExt extends "Customer Card"
+pageextension 50105 CustomerCardExt extends "Customer Card"
 {
     layout
     {
@@ -10,6 +10,18 @@ pageextension 50100 CustomerCardExt extends "Customer Card"
                 Caption = 'Sales Amount';
                 Editable = false;
             }
+            field(NoOfSales; NoOfSales)
+            {
+                ApplicationArea = All;
+                Caption = 'No. of Sales';
+                Editable = false;
+            }
+            field(NoOfItemsShipped; NoOfItemsShipped)
+            {
+                ApplicationArea = All;
+                Caption = 'Total of Items Shipped';
+                Editable = false;
+            }
         }
     }
 
@@ -19,13 +31,15 @@ pageextension 50100 CustomerCardExt extends "Customer Card"
 
         // Variables for the sales amount field (calculated from the background task) 
         SalesAmount: Decimal;
+        NoOfSales: Decimal;
+        NoOfItemsShipped: Decimal;
 
-    trigger OnAfterGetRecord()
+    trigger OnAfterGetCurrRecord()
     var
         TaskParameters: Dictionary of [Text, Text];
     begin
         TaskParameters.Add('CustomerNo', Rec."No.");
-        CurrPage.EnqueueBackgroundTask(TaskSalesId, 50100, TaskParameters, 10000, PageBackgroundTaskErrorLevel::Warning);
+        CurrPage.EnqueueBackgroundTask(TaskSalesId, 50105, TaskParameters, 20000, PageBackgroundTaskErrorLevel::Warning);
     end;
 
     trigger OnPageBackgroundTaskCompleted(TaskId: Integer; Results: Dictionary of [Text, Text])
@@ -34,7 +48,9 @@ pageextension 50100 CustomerCardExt extends "Customer Card"
     begin
         if (TaskId = TaskSalesId) then begin
             Evaluate(SalesAmount, Results.Get('TotalSales'));
-            PBTNotification.Message('Total Sales updated.');
+            Evaluate(NoOfSales, Results.Get('NoOfSales'));
+            Evaluate(NoOfItemsShipped, Results.Get('NoOfItemsShipped'));
+            PBTNotification.Message('Sales Statistics updated.');
             PBTNotification.Send();
         end;
     end;
