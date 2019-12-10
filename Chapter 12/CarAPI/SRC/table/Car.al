@@ -29,7 +29,7 @@ table 50111 Car
         }
         field(5; "Engine Type"; Enum EngineType)
         {
-            Caption = 'Power (CV)';
+            Caption = 'Engine Type';
             DataClassification = CustomerContent;
         }
         field(10; ID; Guid)
