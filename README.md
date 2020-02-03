@@ -1,8 +1,8 @@
 # Dynamics 365 Business Central Development Quick Start Guide 
 
-<a href="https://www.packtpub.com/business/dynamics-365-business-central-development-quick-start-guide?utm_source=github&utm_medium=repository&utm_campaign=9781789347463"><img src="https://www.packtpub.com/media/catalog/product/cache/ecd051e9670bd57df35c8f0b122d8aea/9/7/9781789951257-original.png" alt="Dynamics 365 Business Central Development Quick Start Guide " height="256px" align="right"></a>
+<a href="https://www.packtpub.com/business/dynamics-365-business-central-development-quick-start-guide?utm_source=github&utm_medium=repository&utm_campaign=9781789347463"><img src="https://www.packtpub.com/media/catalog/product/cache/ecd051e9670bd57df35c8f0b122d8aea/9/7/9781789951257-original.png" alt="Dynamics 365 Business Central Development Quick Start Guide" height="256px" align="right"></a>
 
-This is the code repository for [Dynamics 365 Business Central Development Quick Start Guide ](https://www.packtpub.com/business/dynamics-365-business-central-development-quick-start-guide?utm_source=github&utm_medium=repository&utm_campaign=9781789347463), published by Packt.
+This is the code repository for [Dynamics 365 Business Central Development Quick Start Guide](https://www.packtpub.com/business/dynamics-365-business-central-development-quick-start-guide?utm_source=github&utm_medium=repository&utm_campaign=9781789347463), published by Packt.
 
 **Discover extension development best practices, build advanced ERP integrations, and use DevOps tools**
 
