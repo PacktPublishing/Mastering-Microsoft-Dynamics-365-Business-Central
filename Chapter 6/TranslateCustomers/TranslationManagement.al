@@ -13,7 +13,7 @@ codeunit 50100 TranslationManagement
         JPhones: JsonArray;
         JPhone: JsonObject;
     begin
-        Content.WriteFrom('{domain":"' + Name + '"}');
+        Content.WriteFrom('{"domain":"' + Name + '"}');
         Client.DefaultRequestHeaders().Add('Authorization', 'Bearer <YOUR KEY>');
         Client.Post('https://api.fullcontact.com/v3/company.enrich', Content, ResponseMessage);
         if not ResponseMessage.IsSuccessStatusCode() then
